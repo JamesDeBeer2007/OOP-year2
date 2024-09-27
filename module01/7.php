@@ -2,21 +2,13 @@
 
 class Product
 {
-    public $name;
-    public $price;
-    public $category;
-    public $description;
-    public $rating;
-
-    public function __construct($name, $price, $category = "dranken", $description, $rating = 3)
+    public function __construct(public $name, public $price, public $category = "dranken", public $description, public $rating = 3)
     {
         $this->name = strtolower($name);
         $this->price = number_format($this->price*1.09, 2);
         $this->category = strtoupper($category);
-        $this->description = $description;
-        $this->rating = $rating;
     }
-
+    
     public function setCategory()
     {
         return strtoupper($this->category);
