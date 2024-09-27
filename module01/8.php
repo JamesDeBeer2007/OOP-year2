@@ -16,10 +16,9 @@ class Product
         $this->description = $description;
         $this->rating = $rating;
     }
-
-    public function setCategory()
+    public function getProduct()
     {
-        return strtoupper($this->category);
+        return [$this->name, $this->price, $this->category, $this->description, $this->rating];
     }
 };
 
@@ -30,7 +29,10 @@ $B = new Product("Moonshire", 19.99, "RPG", "Open world rpg, with a story line a
 $C = new Product("Elden Ring", 59.99, "RPG", "peak gaming", 11);
 
 echo "<pre>";
-echo $A->name."<br>".$A->price."<br>".$A->category."<br>".$A->description."<br>".$A->rating."<br><br>";
+foreach ($A->getProduct() as $item)
+{
+    echo $item . "<br>";
+}
 var_dump($A, $B, $C);
 echo "</pre>";
 ?>
