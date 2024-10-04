@@ -3,7 +3,7 @@
 class Product
 {
     
-};
+}
 
 $A = new Product();
 $B = new Product();
