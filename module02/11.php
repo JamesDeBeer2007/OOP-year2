@@ -1,9 +1,14 @@
 <?php
 class Game
 {
-    public function __construct(public string $name = "name", public string $description = "description", public float $price = 1.00, public array $tags = ["tags"])
-    {
-    }
+    public function __construct
+    (
+        public string $name = "name", 
+        public string $description = "description", 
+        public float $price = 1.00, 
+        public array $tags = ["tags"]
+        )
+    {}
 };
 
 $A = new Game("GameA", "DescrciptionA", 1.00, ["TagsA"]);

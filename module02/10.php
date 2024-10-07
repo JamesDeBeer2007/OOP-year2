@@ -19,3 +19,5 @@ $C = new Game("GameC", "DescrciptionC", 3.00, ["TagsC"]);
 var_dump($C);
 echo "<br>";
 ?>
+
+foreach ($A->getGame() as Item)
