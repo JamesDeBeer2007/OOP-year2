@@ -32,9 +32,8 @@ class Player
     public function printPlayerInfo(): void
     {
         echo "<h2>mens naam: " . $this->getName() . "</h2>";
-     
         foreach ($this->games as $game) {
-            echo "<li>Game: " . $game->getName() . " - Description: " . $game->getDescription() . "</li>";
+            echo "<li>game name: " . $game->getName() . " - dcription: " . $game->getDescription() . " - og price zonder bullsjit: €" . $game->getPurchasePrice() . "</li>";
         }
     }
 }
