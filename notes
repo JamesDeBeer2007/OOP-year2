@@ -1,5 +1,3 @@
-step into = debug all details en deisplayed ze allemaal
-step over = debug alle details maar laat ze niet allemaal zien
-step out =  i forgor
+
 
 met een foreach en een pravte variable array sla je de laatste dign van de array op in de value as de value
