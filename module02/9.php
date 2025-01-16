@@ -1,6 +1,9 @@
 <?php
 class Game
 {
+    /**
+     * 
+     */
     public function __construct
     (
         public $name = "name", 

@@ -1,4 +1,4 @@
-Php storm niet license, maar ik snap wel hoe dat debuggen werkt :)
+Php storm niet license, maar ik snap wel hoe dat debuggen werkt :
 
 Step Into: gaat in alle functie en toont alle details
 Step Over: voert digen uit zonder in gaan, dus die minder details

@@ -7,7 +7,7 @@ class Game
         public string $description = "description", 
         public float $price = 1.00, 
         public array $tags = ["tags"]
-        )
+    )
     {}
 };
 

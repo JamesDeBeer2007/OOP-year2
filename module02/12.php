@@ -39,7 +39,8 @@ class Game
         $this->price = $price;
         $this->tags = $tags;
     }
-    public function getGames()
+
+    public function getGames(): array
     {
         return [$this ->name, $this->description, $this->price, $this->tags];
     }
