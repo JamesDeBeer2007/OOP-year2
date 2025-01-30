@@ -1,5 +1,4 @@
 <?php
-
 class Product 
 {
     protected string $name;
@@ -15,12 +14,14 @@ class Product
         $this->description = $description;
     }
 
-    public function printInfo(array $productInfo): void 
+    public function printInfo(array $productInfo): string 
     {
+        $output = "";
         foreach ($productInfo as $key => $value) 
         {
-            echo "$key: $value\n";
+            $output .= "$key: $value\n";
         }
-        echo "<br><br>";
+        $output .= "<br><br>";
+        return $output;
     }
 }

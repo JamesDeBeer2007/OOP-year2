@@ -17,7 +17,7 @@ class BankList
     {
         foreach ($this->bankAccounts as $account) 
         {
-            echo $account->getAccountDetails() . "<br>";
+            echo $account->getAccountDetails() . "<br>"; #deze fix
         }
     }
 }
