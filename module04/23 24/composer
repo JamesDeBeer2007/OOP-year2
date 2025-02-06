@@ -1,0 +1,5 @@
+compaser aan file verbinden / name change
+in terminal run: composer install
+verander namespace naar nieuwe file naam
+
+om composer te gebruiken do require_once(vendor/autoload.php)
