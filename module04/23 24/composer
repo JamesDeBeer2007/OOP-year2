@@ -3,3 +3,12 @@ in terminal run: composer install
 verander namespace naar nieuwe file naam
 
 om composer te gebruiken do require_once(vendor/autoload.php)
+
+
+php stan dingen
+composer require --dev phpstan/phpstan
+phpstan is voor code checken, en displayd resultaten daarmee, bvb errors
+
+deze is like tegen buggs
+@var x y z
+@return x y z
