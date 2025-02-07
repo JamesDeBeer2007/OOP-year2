@@ -1,0 +1,9 @@
+{
+    "name": "james/2324",
+    "autoload": {
+        "psr-4": {
+            "Bank\\": "src/"
+        }
+    },
+    "require": {}
+}
