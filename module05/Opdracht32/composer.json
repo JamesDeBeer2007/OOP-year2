@@ -1,0 +1,9 @@
+{
+    "name": "james/opdracht32",
+    "autoload": {
+        "psr-4": {
+            "Opdracht32\\": "src/"
+        }
+    },
+    "require": {}
+}
