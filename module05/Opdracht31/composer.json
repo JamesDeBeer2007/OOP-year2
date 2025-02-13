@@ -1,0 +1,9 @@
+{
+    "name": "james/opdracht31",
+    "autoload": {
+        "psr-4": {
+            "Opdracht31\\": "src/"
+        }
+    },
+    "require": {}
+}
